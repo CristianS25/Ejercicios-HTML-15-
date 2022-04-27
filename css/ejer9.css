@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    margin: 3px;
+    
+}
+
+.container #volver {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#tit, #text {
+    text-align: center;
+}
+
+.proye {
+    display: table-cell;
+    padding: 10px;
+}
+
+.proye h3 {
+    background: #069;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.proye p {
+    background: rgb(73, 59, 59);
+    color: whitesmoke;
+}

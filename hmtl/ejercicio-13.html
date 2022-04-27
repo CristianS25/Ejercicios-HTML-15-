@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--centro de biotegnologia agropecuaria
+    ficha:2470980
+    programa:analisis y desarrollo de software
+    creacion=16/02/2022
+    actualizacion=22/02/2022-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rellena tu CV</title>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_q6LQhSCHu2Mmo7Ol3gAyToy0zfIG7OdFog&usqp=CAU">
+        <link rel="stylesheet" href="../css/ejer13.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3 id="titulo">Rellena tu CV</h3>
+            <form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+                <br>Nombre<br />
+                <input type="text" name="Nombre" value="" size="20" maxlength="30" />
+                <br>Apellidos<br />
+                <input type="text" name="Apellidos" value="" size="50" maxlength="80" />
+                <br>Contraseña<br />
+                <input type="text" name="Contraseña" value="" maxlength="10" />
+                <br>DNI<br />
+                <input type="text" name="DNI" value="" size="10" maxlength="9" />
+                <br />
+                <br>Sexo<br />
+                <br>Hombre<br />
+                <input type="radio" name="sexo" value="Hombre" checked="checked" />
+                <br>Mujer<br />
+                <input type="radio" name="Sexo" value="Mujer" checked="checked" />
+                <br>Incluir mi foto<br />
+                <input type="file" name="foto" />
+                <input type="submit" name="Enviar" value="Guardar cambios" />
+                <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+            </form>
+            <!--form=representa un documento que contiene usuarios
+            input=se usa para crear controles interactivos para formularios
+            h3=se usan para títulos de subsecciones
+            br=genera a un interlineado-->
+        </div>
+    </body>
+</html>

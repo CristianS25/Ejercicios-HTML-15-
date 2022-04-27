@@ -1,0 +1,35 @@
+/* Ficha:2470980
+Nombre: Cristian Quevedo
+Profesor: Orlando*/
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+#pa1 {
+    color: crimson;
+    text-decoration: dotted;
+}
+
+#pa2 {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pa3 {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#im {
+    color: red;
+    text-align: center;
+}

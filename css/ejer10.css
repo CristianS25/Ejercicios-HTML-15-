@@ -1,0 +1,19 @@
+/* Ficha:2470980
+Nombre: Cristian Quevedo
+Profesor: Orlando*/
+
+body {
+    background-color: rgb(143, 81, 81);
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(196, 158, 113);
+}
+
+#titulo {
+    text-align: center;
+}

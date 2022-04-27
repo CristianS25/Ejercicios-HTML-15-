@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--centro de biotegnologia agropecuaria
+    ficha:2470980
+    programa:analisis y desarrollo de software
+    creacion=16/02/2022
+    actualizacion=22/02/2022-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Información sobre el producto</title>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7p5k1AzP5Ggrydna2FHFWJF3fTDhplHV5Q&usqp=CAU">
+        <link rel="stylesheet" href="../css/ejer15.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3 id="titulo">Información sobre el producto</h3>
+            <form action= "/php/insertar_subasta.php" method= "post" enctype= "multipart/form-data">
+                <fieldset>
+                    <legend>Datos básicos</legend>
+                    <label for="nombre">Nombre</label><br />
+                    <input type= "text" name= "nombre" id= "nombre" size= "50" maxlength= "250" />
+                    <label for="descripcion">Descripción</label><br />
+                    <textarea name= "descripcion" id= "descripcion" cols= "40" rows= "5"></textarea>
+                    <br>Foto<br />
+                    <input type="file" name="foto" />
+                    <input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+                </fieldset>
+                <fieldset>
+                    <legend>Datos económicos</legend>
+                    <label for="precio">Precio</label>
+                    <input type="text" size="5" id="precio" name="precio" />
+                    <label for="impuestos">Impuestos</label>
+                    <select id="impuestos" name="impuestos">
+                        <option value="4">4%</option>
+                        <option value="7">7%</option>
+                        <option value="16">16%</option>
+                        <option value="25">25%</option>
+                    </select>
+                    <label><br>Promoción<br /></label>
+                    <input type="radio" name="promocion" value="ninguno" checked="checked" /><br>Ninguno<br />
+                    <input type="radio" name="promocion" value="portes" /><br>Transporte gratuito<br />
+                    <input type="radio" name="promoción" value="descuento" /> Descuento 5%
+                </fieldset>
+            </form>
+            <!--fieldset=Se utiliza con su respectiva etiqueta de cierre y lo que hace es crear un recuadro que rodea a los elementos de formulario
+            h3=se usan para títulos de subsecciones
+            label=representa una etiqueta para un elemento en una interfaz de usuario
+            input=se usa para crear controles interactivos para formularios
+            option= se usa para insertar opciones en una lista
+            br=genera  un interlineado
+            legend=crea un título para un grupos los campos-->
+        </div>
+    </body>
+</html>
