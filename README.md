@@ -34,7 +34,7 @@ Representación gráica de las maquetas.
 <img src="https://user-images.githubusercontent.com/102183213/166452228-446ae468-bab5-4453-a08d-124e8bfc6763.png">
 <br />
 - Maqueta N°10:
-<img src="https://user-images.githubusercontent.com/102183213/166451890-5ee6f83c-d8de-493a-b9cd-b9eb770dc8ad.png">
+<img src="https://user-images.githubusercontent.com/102183213/166453887-a518e432-9e29-44a6-9433-8d88c34efa77.png">
 <br />
 - Maqueta N°11:
 <img src="https://user-images.githubusercontent.com/102183213/166453350-c10b2dc2-3648-475c-92f4-08206333a472.png">
